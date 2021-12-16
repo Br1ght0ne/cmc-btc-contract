@@ -19,3 +19,6 @@ debug = false
 panic = "abort"
 # Opt into extra safety checks on arithmetic operations https://stackoverflow.com/a/64136471/249801
 overflow-checks = true
+
+[dev-dependencies]
+assert_approx_eq = "1.1.0"
